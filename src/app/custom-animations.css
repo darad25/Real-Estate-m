@@ -1,0 +1,14 @@
+@keyframes carousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-carousel {
+    animation: carousel var(--animation-duration, 60s) linear infinite;
+  }
+  
+  
